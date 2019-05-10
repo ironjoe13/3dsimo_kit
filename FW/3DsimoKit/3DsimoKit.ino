@@ -51,14 +51,15 @@ typedef struct {
  */
 const profile_t materials[] PROGMEM = {  
   // {temperature (deg. C), motorSpeed (%), materialName}
-     {225,                  25,             "ABS"},
+     {250,                  25,             "ASA"},
+     {240,                  30,             "PET"}
      {210,                  40,             "PLA"}
 };
 
 /*
  *   define number of materials in list and variables
  */
-#define MATERIAL_COUNT  2
+#define MATERIAL_COUNT  3
 
 int materialID = 0;         // chosen material profile
 int setTemperature = 225;   // set heater temperature
