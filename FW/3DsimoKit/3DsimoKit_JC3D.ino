@@ -56,8 +56,8 @@ const profile_t materials[] PROGMEM = {
   // {temperature (deg. C), motorSpeed (%), materialName}
      {0,                  0,             "OFF"},    /* NEW! BEGIN OFF - BUT IF YOU SELECT THIS AFTER PETG, 3DPEN COOLS TO 153º PRIOR TO SHUTDOWN*/
      {210,                  40,             "PLA"},
-     {230,                  30,             "ABS"},
-     {235,                  40,             "PETG"}
+     {250,                  25,             "ASA"},
+     {240,                  30,             "PETG"}
 };
 
 /*
